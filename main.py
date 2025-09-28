@@ -4,7 +4,7 @@ from docling.document_converter import DocumentConverter, PdfFormatOption
 import json
 from pathlib import Path
 
-artifacts_path = "/data2/qinxb/ai_crawler/model/docling_models"
+artifacts_path = "model/docling_models"
 
 pipeline_options = PdfPipelineOptions(artifacts_path=artifacts_path)
 pipeline_options.ocr_options.lang = ["chi_sim"]  
